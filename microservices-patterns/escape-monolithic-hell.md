@@ -19,7 +19,9 @@ Richardson defines microservices as an architectural style that structures an ap
 
 ## 1.3 The Microservice Architecture Pattern Language
 The book introduces a "Pattern Language" to help you decide whether microservices are right for your project and how to address the challenges they introduce (e.g., service discovery, data consistency, and API gateways).
-Technical Examples: Service Communication
+
+### Technical Examples: Service Communication
+
 While the book uses Java, the core concepts translate directly to other modern stacks. 
 Below are examples of how you might define a basic service contract or entry point in C# and Python.
 
