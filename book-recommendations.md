@@ -18,3 +18,7 @@ Implementing Domain-Driven Design is a 2013 technical book by software architect
 ## 5. Microservices Patterns
 
 Microservices Patterns: With examples in Java is a 2018 software engineering book by Chris Richardson. It provides a systematic guide to designing, building, and deploying microservice-based applications, focusing on solving the practical challenges of distributed systems. The book is widely recognised for bridging conceptual design and implementation detail for software architects and developers.
+
+## 6. Software Architecture: The Hard Parts
+
+## 7. Enterprise Integration Patterns
