@@ -14,3 +14,7 @@ Software Architecture in Practice is a foundational textbook on software archite
 ## 4. Implementing Domain-Driven Design
 
 Implementing Domain-Driven Design is a 2013 technical book by software architect Vaughn Vernon. It extends the concepts introduced by Eric Evans in Domain-Driven Design (2003), providing practical guidance for applying domain-driven principles to modern software systems. The book is widely regarded as a definitive reference for implementing large-scale, maintainable, and business-aligned architectures.
+
+## 5. Microservices Patterns
+
+Microservices Patterns: With examples in Java is a 2018 software engineering book by Chris Richardson. It provides a systematic guide to designing, building, and deploying microservice-based applications, focusing on solving the practical challenges of distributed systems. The book is widely recognised for bridging conceptual design and implementation detail for software architects and developers.
