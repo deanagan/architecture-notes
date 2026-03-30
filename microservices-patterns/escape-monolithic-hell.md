@@ -17,6 +17,8 @@ Richardson defines microservices as an architectural style that structures an ap
  * Independently deployable.
  * Organized around business capabilities.
 
+[img](img.jpg)
+
 ## 1.3 The Microservice Architecture Pattern Language
 The book introduces a "Pattern Language" to help you decide whether microservices are right for your project and how to address the challenges they introduce (e.g., service discovery, data consistency, and API gateways).
 
