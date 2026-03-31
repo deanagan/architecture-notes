@@ -16,9 +16,12 @@ Decomposition isn't just about drawing lines; you must manage:
  * Data Consistency: Maintaining "Sagas" (Chapter 4) across service boundaries.
  * The "God Class": Avoiding giant, monolithic classes (like a User or Product object) that are used everywhere but mean different things in different contexts.
 
-Technical Examples: Handling Shared Data (The "God Class" Problem)
+## Technical Examples: Handling Shared Data (The "God Class" Problem)
+
 In a Monolith, you might have one giant Order class. In Microservices, you decompose it. The "Ordering" service sees an Order as a list of items; the "Shipping" service sees it as a delivery address and a tracking number.
+
 ### C# Example: Specific Models per Service
+
 In C#, we use separate namespaces or even separate projects to ensure that the Order model in the Shipping Service does not share code with the Sales Service.
 
 ```csharp
