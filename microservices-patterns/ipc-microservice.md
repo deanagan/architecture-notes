@@ -17,7 +17,8 @@ Richardson categorizes IPC based on two dimensions:
 Because services change independently, API Versioning is critical.
  * Semantic Versioning (MAJOR.MINOR.PATCH): A standard way to signal breaking vs. non-breaking changes.
  * Consumer-Driven Contract Testing: Ensuring that a change in the "Provider" service doesn't break the "Consumer" service.
-3.3 Message-Based Communication
+
+## 3.3 Message-Based Communication
 Using a message broker (like RabbitMQ or Kafka) provides Loose Coupling and Increased Availability. If the receiver is down, the message stays in the queue.
 Technical Examples: Synchronous (gRPC) and Asynchronous (Messaging)
 C# Example: gRPC (Synchronous)
