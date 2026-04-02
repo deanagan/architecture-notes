@@ -6,12 +6,14 @@ Since microservices turn a monolithic "in-memory" call into a distributed system
 Richardson categorizes IPC based on two dimensions:
  * One-to-one vs. One-to-many: Does a request go to a single service or multiple?
  * Synchronous vs. Asynchronous: Does the client wait for a response or send and forget?
+
 | Style | Interaction Type | Examples |
 |---|---|---|
 | One-to-One | Request/Response | REST, gRPC, Thrift |
 | One-to-One | Asynchronous Request/Response | Messaging (Command/Reply) |
 | One-to-Many | Publish/Subscribe | Kafka, RabbitMQ, SNS |
-3.2 Evolution of APIs
+
+## 3.2 Evolution of APIs
 Because services change independently, API Versioning is critical.
  * Semantic Versioning (MAJOR.MINOR.PATCH): A standard way to signal breaking vs. non-breaking changes.
  * Consumer-Driven Contract Testing: Ensuring that a change in the "Provider" service doesn't break the "Consumer" service.
