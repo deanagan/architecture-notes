@@ -43,7 +43,8 @@ public class OrderSaga : MassTransitStateMachine<OrderState>
 }
 ```
 
-Python Example: Event-Driven Compensating Transaction
+### Python Example: Event-Driven Compensating Transaction
+
 In Python, using an event bus (like NATS or Kafka), you might implement a simple "Choreography" where a failure triggers a rollback event.
 
 ```python
