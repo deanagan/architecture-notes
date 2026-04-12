@@ -15,6 +15,8 @@ A Saga is a sequence of local transactions. Each local transaction updates the d
 Technical Examples: Implementing Saga Logic
 C# Example: Orchestration with a State Machine
 In .NET, libraries like MassTransit or Stateless are often used to manage the state of a long-running saga.
+
+```csharp
 // Simplified Orchestrator Logic using a State Machine approach
 public class OrderSaga : MassTransitStateMachine<OrderState>
 {
@@ -39,9 +41,12 @@ public class OrderSaga : MassTransitStateMachine<OrderState>
         );
     }
 }
+```
 
 Python Example: Event-Driven Compensating Transaction
 In Python, using an event bus (like NATS or Kafka), you might implement a simple "Choreography" where a failure triggers a rollback event.
+
+```python
 # inventory_service.py
 def handle_reserve_stock(event):
     try:
@@ -63,8 +68,10 @@ def handle_reserve_stock(event):
 def handle_stock_failed(event):
     print(f"Rolling back order {event['order_id']}: {event['reason']}")
     update_order_status(event['order_id'], "CANCELLED")
+```
 
 Key Takeaways
+
  * Embrace Eventual Consistency: Your system won't be consistent every millisecond, but the Saga ensures it is consistent eventually.
  * Lack of Isolation: Sagas lack the "I" (Isolation) in ACID. You must use countermeasures like "semantic locks" (marking a record as Pending) to prevent other transactions from using dirty data.
  * Design for Failure: Every step in a Saga must have a corresponding "Undo" step.
