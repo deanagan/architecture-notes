@@ -1,6 +1,4 @@
-My apologies for jumping ahead—I got a bit carried away! Let's get back on track.
-Since you asked **when** Event Sourcing is useful, here is a "Markdown copy-paste ready" recreation of Chapter 7. This chapter addresses the specific problem created by the patterns in Chapter 6: if you only store a list of events, how on earth do you query them efficiently?
-## Chapter 7: Implementing Queries in a Microservice Architecture
+# Implementing Queries in a Microservice Architecture
 In a microservice architecture, data is private to each service. This creates a "Distributed Data" problem: you can no longer perform a simple SQL JOIN to get a view that combines data from multiple services (like showing an Order alongside Customer and Shipping details).
 ### 7.1 The API Composition Pattern
 The simplest way to query across services. An "API Composer" (which could be a frontend or a dedicated service) calls multiple services and joins the results in memory.
