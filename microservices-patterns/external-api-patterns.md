@@ -11,7 +11,7 @@ An **API Gateway** acts as a single entry point for all clients. It handles:
  * **API Composition:** Performing the "Chapter 7" join in one go so the mobile app only makes one request.
  * **Cross-cutting concerns:** Authentication, SSL termination, rate limiting, and caching.
 
-
+(cross)[cross.jpg]
 
 ### 8.3 The Backends for Frontends (BFF) Pattern
 A variation where you have a specific gateway for each type of client (e.g., one for the iOS app, one for the Web app). This prevents one massive "monolithic" gateway.
