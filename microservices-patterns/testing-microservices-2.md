@@ -50,4 +50,4 @@ with pact:
 ## Key Takeaways
  1. **Gherkin/Cucumber:** Richardson suggests using BDD (Behavior Driven Development) to write component tests in "Plain English" so business logic remains clear.
  2. **Focus on Boundaries:** Component tests should focus on the "ports and adapters" (the API and the data access layer).
- 3. **In-Process vs. Out-of-Process:** You can run component tests by starting the service in a separate process or by running it in-memory within the test suite (the latter is much 
+ 3. **In-Process vs. Out-of-Process:** You can run component tests by starting the service in a separate process or by running it in-memory within the test suite (the latter is much faster)
