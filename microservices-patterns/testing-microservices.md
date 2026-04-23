@@ -62,4 +62,4 @@ def test_get_shipping_status():
 ## Key Takeaways
  1. **Avoid E2E tests where possible:** They are expensive to maintain. Use **Contract Testing** (like Pact) instead to ensure services can still talk to each other.
  2. **Use Testcontainers:** Instead of mocking your database, use library-managed Docker containers to test against a real instance of Postgres, SQL Server, or Redis.
- 3. **Service Virtualization:** Mock out the "other" services in your mesh so you can test your service in total 
+ 3. **Service Virtualization:** Mock out the "other" services in your mesh so you can test your service in total isolation
