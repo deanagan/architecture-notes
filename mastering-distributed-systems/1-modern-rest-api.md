@@ -54,6 +54,7 @@ async def create_transaction(transaction: TransactionCreate):
  * **400 Bad Request:** Use for validation errors (e.g., negative amounts).
  * **401 vs 403:** 401 is "I don't know who you are"; 403 is "I know you, but you aren't allowed here."
  * **429 Too Many Requests:** Essential for rate limiting in high-load systems.
+
 **Next Steps for Chapter 2:**
 We will take this API and move from **Synchronous** processing to **Asynchronous** streaming. Instead of the API waiting for a database write, it will fire an event to **Azure Event Hubs** or **Kafka** and return immediately.
 Would you like to dive deeper into specific API security patterns (like OAuth2/OpenID Connect) before we move to Kafka?
