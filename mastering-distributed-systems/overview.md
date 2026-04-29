@@ -1,3 +1,5 @@
+# Overview
+
 Creating a comprehensive curriculum for modern backend architecture requires a balance between theoretical patterns and hands-on implementation. To master the transition from monolithic thinking to event-driven distributed systems, we will structure this into **7 Chapters**.
 Each chapter is designed as a standalone Markdown module, moving from foundational REST principles to complex asynchronous orchestration using Kafka and Azure.
 ## The Curriculum: Mastering Distributed Systems
