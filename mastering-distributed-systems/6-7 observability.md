@@ -54,4 +54,3 @@ For a truly global system, you use **Azure Front Door**. It uses **Anycast IP** 
  1. **Statelessness:** Your API instances should not store local data. Use Redis or a Database.
  2. **Infrastructure as Code (IaC):** Use Bicep or Terraform to deploy your Azure services.
  3. **Security First:** Use Managed Identities so your code doesn't need to store connection strings or passwords.
-**Congratulations! You’ve walked through the full curriculum from RESTful basics to global-scale event-driven architecture.** Would you like to deep-dive into a specific coding exercise for any of these chapters, or perhaps look at how to deploy this entire stack using **Azure Bicep**?
