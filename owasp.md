@@ -1,4 +1,3 @@
-My apologies for that initial truncation! Here is the complete, uninterrupted guide from the very beginning, beautifully formatted in Markdown.
 # OWASP Top 10 Reference & Mitigation Guide
 An implementation-focused guide to the OWASP Top 10 application security risks, providing structural analysis, code vulnerabilities, secure remediations, and configuration defenses.
 ## 1. A01:2021 – Broken Access Control
